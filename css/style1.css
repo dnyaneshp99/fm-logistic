@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.horizontal-menu .top-navbar {
+    font-weight: 400;
+    background: #06283D;
+    border-bottom: 1px solid #f1f6f8;
+}
+.table-title {
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    height: 38px;
+    margin-bottom: 10px;
+}
+.table-title-total {
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    height: 42px;
+}
+
+.f-right {
+    margin-left: 110px;
+}
+
+.card {
+    border: 2px solid #06283D;
+}
+.bg-table-title, .table-bg {
+    color: #FFFFFF;
+    background-color: #06283D;
+}
+
+.btn.btn-social-icon {
+    width: 28px;
+    height: 26px;
+    padding: 0;
+}
+.btn-outline-facebook {
+    border: 2px solid #ffffff;
+}
+
+.width-100 {
+    width: 100%;
+}
+.width-1600 {
+    width: 1600;
+}
+.btn-white:hover {
+    background-color: #ffffff;
+}
