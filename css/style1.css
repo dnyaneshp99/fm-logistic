@@ -3,21 +3,18 @@
     margin: 0;
     padding: 0;
 }
-.horizontal-menu .top-navbar {
-    font-weight: 400;
-    background: #06283D;
-    border-bottom: 1px solid #f1f6f8;
-}
 .table-title {
-    border: 2px solid #ffffff;
+   /* border: 2px solid #8f9091; */
     border-radius: 4px;
     height: 38px;
     margin-bottom: 10px;
+    background-color:  rgb(216 226 231);
 }
 .table-title-total {
-    border: 2px solid #ffffff;
+  /*  border: 2px solid #8f9091; */
     border-radius: 4px;
-    height: 42px;
+    height: 32px;
+    background-color:  rgb(216 226 231);
 }
 
 .f-right {
@@ -25,11 +22,18 @@
 }
 
 .card {
-    border: 2px solid #06283D;
+   /* background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% ); */
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
-.bg-table-title, .table-bg {
-    color: #FFFFFF;
-    background-color: #06283D;
+.bg-table {
+    background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% );
+   /* background: linear-gradient(to right, #FFBF96, #FE7096) !important; 
+      background-image: -webkit-linear-gradient(331deg,#EE0979 0%,#FF6A00 100%);
+      background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
+      background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%); 
+      background-color: #0093E9;*/
+    color: #252525;
+
 }
 
 .btn.btn-social-icon {
@@ -38,7 +42,7 @@
     padding: 0;
 }
 .btn-outline-facebook {
-    border: 2px solid #ffffff;
+    border: 2px solid #18978F;
 }
 
 .width-100 {
@@ -50,3 +54,57 @@
 .btn-white:hover {
     background-color: #ffffff;
 }
+.form-control, .typeahead, .tt-query, .tt-hint {
+   
+    padding:5px 1.375rem;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus)+* {
+    font-size: 100%;
+}
+
+  
+.btn-grad {
+    background: transparent;
+    border-color: rgb(238, 91, 91);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 11px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+  }
+
+  
+  .btn-grad:hover {
+    background-image: linear-gradient(to right, #E44D26 0%, #F16529  51%, #E44D26  100%);
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .col-form-label-1 {
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1;
+}
+
+.btn-danger {
+    color: #000;
+    background-color: #F1A95E;
+    /* border-color: #ee5b5b; */
+}
+  
+             
+
+
+      
+     
+    
+  
+ 
+  

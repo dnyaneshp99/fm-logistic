@@ -26,7 +26,7 @@
 		<!-- partial:partials/_horizontal-navbar.html -->
 		<div class="horizontal-menu">
 			<nav class="navbar top-navbar col-lg-12 col-12 p-0">
-				<div class="container-fluid bg-table">
+				<div class="container-fluid">
 					<div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
 
 						<div class=" navbar-brand-wrapper d-flex ">
@@ -88,23 +88,22 @@
 						<div class="col-sm-12">
 							<div class="d-flex align-items-center justify-content-md-end">
 								<div class="pe-1 mb-3 mb-xl-0">
-									<button type="button" class="btn btn-grad  btn-fw">Print GC Entry
+									<button type="button" class="btn btn-outline-danger btn-fw">Print GC Entry
 										(Alt-P)</button>
 								</div>
-								
 								<div class="pe-1 mb-3 mb-xl-0">
-									<button type="button" class="btn btn-grad btn-fw">Cancel GC
+									<button type="button" class="btn btn-outline-danger btn-fw">Cancel GC
 										Entry</button>
 								</div>
 								<div class="pe-1 mb-3 mb-xl-0">
-									<button type="button" class="btn btn-grad btn-fw">Send E-Mail</button>
+									<button type="button" class="btn btn-outline-danger btn-fw">Send E-Mail</button>
 								</div>
 								<div class="pe-1 mb-3 mb-xl-0">
-									<button type="button" class="btn btn-grad btn-fw">Save GC Entry
+									<button type="button" class="btn btn-outline-danger btn-fw">Save GC Entry
 										(Alt-S)</button>
 								</div>
 								<div class="pe-1 mb-3 mb-xl-0">
-									<button type="button" class="btn btn-grad btn-fw">Close Page</button>
+									<button type="button" class="btn btn-outline-danger btn-fw">Close Page</button>
 								</div>
 							</div>
 						</div>
@@ -112,7 +111,7 @@
 					<div class="row mt-1">
 						<div class="col-lg-12 grid-margin stretch-card">
 							<div class="card">
-								<div class="card-header bg-table">
+								<div class="card-header bg-table-title">
 									<div class="row">
 										<div class="col-lg-2">
 											<div class="py-2">
@@ -150,10 +149,14 @@
 										<div class="col-lg-8">
 											<div class="row">
 												<div class="col-3 ">
-													<label class="mb-0">Manual Cn</label>
-													<input type="text" class="form-control form-control-sm"
-														placeholder="Manual Cn" aria-label="Username">
-												</div>										
+													<div class="input-group">
+														<span class="has-float-label">
+														  <input class="form-control" id="first" type="text" placeholder="Manual CN">
+														  <label for="first">Manual CN</label>
+														</span>											
+													  </div>
+													
+												</div>
 												<div class="col-3 ">
 													<label class="mb-0">Indent id</label>
 													<input type="text" class="form-control form-control-sm"
@@ -347,9 +350,9 @@
 										<div class="col-lg-4 side-border">
 											<div class="grid-margin stretch-card">
 												<div class="card">
-													<div class="card-body bg-table">
+													<div class="card-body bg-table-title">
 														<div
-															class="table-title d-flex align-items-center">
+															class="table-title bg-table-title d-flex align-items-center">
 															<h5>Charge Head</h5>
 															<h5 class="f-right">Amount</h5>
 														</div>
@@ -416,9 +419,9 @@
 																		placeholder="Expediate Charges">
 																</div>
 															</div>
-															<div class="row table-title-total">
+															<div class="row table-title-total bg-table-title">
 																<label for="ExpediateCharges"
-																	class="col-sm-6 col-form-label-1">Total Amount</label>
+																	class="col-sm-6 col-form-label">Total Amount</label>
 																<div class="col-sm-6">
 																	<input type="text"
 																		class="form-control form-control-sm"
@@ -433,7 +436,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="card-footer bg-table">
+								<div class="card-footer bg-table-title">
 									<div class="row">
 										<div class="col-lg-2">
 											<div>
@@ -574,7 +577,7 @@
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="">
-									<table class="table bg-table">
+									<table class="table table-bg">
 										<tr class="">
 											<th>Date</th>
 											<th>Part No</th>

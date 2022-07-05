@@ -15,6 +15,76 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="images/favicon.png" />
+	<style>
+	
+.form-outline .form-control:focus~.form-label {
+    color: #1266f1;
+}
+.form-outline .form-control.active~.form-label, .form-outline .form-control:focus~.form-label {
+    transform: translateY(-1rem) translateY(0.1rem) scale(.8);
+}
+.form-outline .form-control~.form-label {
+    position: absolute;
+    top: 0;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0.75rem;
+    padding-top: 0.37rem;
+    pointer-events: none;
+    transform-origin: 0 0;
+    transition: all .2s ease-out;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 0;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+    color: rgba(0,0,0,.6);
+}
+
+label {
+    display: inline-block;
+}
+
+.form-outline .form-control {
+    min-height: auto;
+    padding: 0.33em 0.75em;
+    border: 0;
+    background: transparent;
+    transition: all .2s linear;
+}
+
+INPUT:not(:-webkit-autofill), SELECT:not(:-webkit-autofill), TEXTAREA:not(:-webkit-autofill) {
+    animation-name: onautofillcancel;
+}
+.form-control {
+    min-height: auto;
+    padding-top: 4px;
+    padding-bottom: 3.28px;
+    transition: all .1s linear;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #4f4f4f;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: all .2s linear;
+}
+.form-outline .form-control:focus {
+    box-shadow: none!important;
+}
+	</style>
   </head>
   <body>
     <div class="container-scroller">
@@ -638,16 +708,10 @@
 							</div>
 						</div>
 						<div class="col-lg-2 grid-margin stretch-card">
-							<div class="card">
-								<div class="card-body pb-0">
-									<div class="d-flex align-items-center justify-content-between">
-										<h2 class="text-warning font-weight-bold">3259</h2>
-										<i class="mdi mdi-folder-outline mdi-18px text-dark"></i>
-									</div>
-								</div>
-								<canvas id="projects"></canvas>
-								<div class="line-chart-row-title">All PROJECTS</div>
-							</div>
+							<div class="form-outline">
+								<input type="text" id="form12" class="form-control" />
+								<label class="form-label" for="form12">Example label</label>
+							  </div>
 						</div>
 						<div class="col-lg-2 grid-margin stretch-card">
 							<div class="card">
