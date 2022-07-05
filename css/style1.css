@@ -23,7 +23,7 @@
 
 .card {
    /* background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% ); */
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
 }
 .bg-table {
     /* background: linear-gradient(to right, rgb(38 123 166), rgb(109, 213, 237)); */
@@ -69,13 +69,13 @@
   
 .btn-grad {
     background: transparent;
-    border-color: rgb(238, 91, 91);
+    border-color: #0093Eb;
     color: rgb(0, 0, 0);
     margin: 5px;
     padding: 11px 15px;
     text-align: center;
     text-transform: uppercase;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     background-size: 200% auto;            
     box-shadow: 0 0 20px #eee;
     border-radius: 5px;
@@ -84,8 +84,8 @@
 
   
   .btn-grad:hover {
-    background-image: linear-gradient(to right, #E44D26 0%, #F16529  51%, #E44D26  100%);
-    background-position: right center; /* change the direction of the change here */
+    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+    background-position: right center;
     color: #fff;
     text-decoration: none;
   }
@@ -102,6 +102,30 @@
     background-color: #F1A95E;
     /* border-color: #ee5b5b; */
 }
+         
+.btn-grad1 {
+    background-color: #ffffff;
+    margin: 5px;
+    border-color: #000;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    /* transition: 0.5s; */
+    background-size: 200% auto;
+    color: rgb(20, 20, 20);            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 5px;
+    display: block;
+  }
+
+  .btn-grad1:hover {
+    background-image: linear-gradient(90deg, #003858 0%, #00554b 100%);
+    /* background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%); */
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
   
              
 
