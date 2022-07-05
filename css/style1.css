@@ -26,7 +26,8 @@
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 .bg-table {
-    background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% );
+    background: linear-gradient(to right, rgb(38 123 166), rgb(109, 213, 237));
+    /* background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% ); */
    /* background: linear-gradient(to right, #FFBF96, #FE7096) !important; 
       background-image: -webkit-linear-gradient(331deg,#EE0979 0%,#FF6A00 100%);
       background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
@@ -34,6 +35,9 @@
       background-color: #0093E9;*/
     color: #252525;
 
+}
+.text-white {
+    color: #ffffff;
 }
 
 .btn.btn-social-icon {
