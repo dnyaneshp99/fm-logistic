@@ -26,8 +26,11 @@
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 .bg-table {
-    background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% );
-   /* background: linear-gradient(to right, #FFBF96, #FE7096) !important; 
+    background-image: linear-gradient(to right, #1465dd, #0099ed, #00c1e0, #88c9e2, #e1f8ff);
+    /* background-image: linear-gradient(to right, #1465dd, #0098f4, #00c1e8, #3ae3d2, #b8ffca); */
+    /* background-image: linear-gradient(to right, #1465dd, #0095f8, #00bae9, #00d8c0, #77f096); */
+   /* background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% );
+      background: linear-gradient(to right, #FFBF96, #FE7096) !important; 
       background-image: -webkit-linear-gradient(331deg,#EE0979 0%,#FF6A00 100%);
       background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
       background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%); 
